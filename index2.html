@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+</head>
+<body>
+    <h1>save item to local storage</h1>
+
+    <main>
+      
+           <input id="product-obj" type="text" placeholder="product">
+           <input id="quantity-obj" type="text" placeholder="quantity
+           ">
+        <button onclick='addObjToLocalStorage()' >add obj</button>
+        <button onclick="removeObjStorage()">remove obj</button>
+        <button>display obj</button>
+        <ul id="obj-container">
+            
+        </ul>
+        <br><br>
+        <input id="product-array" type="text" placeholder="product">
+           <input id="quantity-array" type="text" placeholder="quantity
+           ">
+        <button onclick="addArrayToLocalStorage()">add array</button>
+        <button onclick="removeArrayStorage()">remove array</button>
+        <button>display array</button>
+        <ul id="array-container"></ul>
+    </main>
+    <script src="js/script3.js"></script>
+</body>
+</html>
